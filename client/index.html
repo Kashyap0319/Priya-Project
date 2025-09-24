@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>e-Passport Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>e-Passport (demo)</h1>
+
+    <section>
+      <h2>Register User</h2>
+      <input id="userName" placeholder="Name" />
+      <input id="userPassword" type="password" placeholder="Password" />
+      <button id="btnRegister">Register</button>
+      <pre id="userResult"></pre>
+    </section>
+
+    <section>
+      <h2>Login</h2>
+      <input id="loginName" placeholder="Name" />
+      <input id="loginPassword" type="password" placeholder="Password" />
+      <button id="btnLogin">Login</button>
+      <pre id="loginResult"></pre>
+    </section>
+
+    <section>
+      <h2>Submit Application</h2>
+      <input id="appUserId" placeholder="User ID" />
+      <button id="btnSubmitApp">Submit Application</button>
+      <pre id="appResult"></pre>
+    </section>
+
+    <section>
+      <h2>Request Appointment</h2>
+      <input id="apptUserId" placeholder="User ID" />
+      <input id="apptSlot" placeholder="Slot (e.g. 2025-10-01T09:00)" />
+      <button id="btnAppt">Request</button>
+      <pre id="apptResult"></pre>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
